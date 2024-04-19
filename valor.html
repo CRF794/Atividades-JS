@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <H1 style="color: blue;">Valor desejado</H1>
+
+    <script>
+
+        let num = Number(prompt("Qual é o valor desejado:"))
+
+        let Desconto = Number(num*0.05)
+        let valorcomDesconto = Number(num-Desconto)
+
+        document.write(`O antecessor de ${num} é: <strong>${num - 1}</strong> e o sucessor é: <strong>${num + 1}</strong><br>`)
+        document.write(`O valor com 5% de desconto é <strong>${valorcomDesconto}</strong><br>`)
+    </script>
+</body>
+</html>
